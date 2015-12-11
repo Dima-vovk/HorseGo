@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">HorseGo</string>
+    <string name="txtInit">HorseGo - Это очень крутая супер - пупер игра.</string>
+    <string name="rules">Правила игры:</string>
+    <string name="rulesGame">Введите имя всех игроков и нажмите "ЗАБЕГ".</string>
+    <string name="user1"></string>
+    <string name="btnStart">ЗАБЕГ</string>
+    <string name="newUser">Добавить игрока</string>
+    <string name="txtUser1">Игроки :</string>
+    <string name="userNameActivity"></string>
+    <string name="btnDelete">Удалить</string>
+    <string name="lableResult">Результат:</string>
+    <string name="txtPositionTitel">Позиция</string>
+    <string name="txtNameUserTitle">Имя</string>
+    <string name="txtTimeTitle">Время</string>
+    <string name="txtPositionOne"></string>
+    <string name="txtPositionTwo"></string>
+    <string name="txtPositionThree"></string>
+    <string name="txtPositionFour"></string>
+    <string name="txtPositionFive"></string>
+    <string name="txtNameUserOne"></string>
+    <string name="txtNameUserTwo"></string>
+    <string name="txtNameUserThree"></string>
+    <string name="txtNameUserFour"></string>
+    <string name="txtNameUserFive"></string>
+    <string name="txtTimeOne"></string>
+    <string name="txtTimeTwo"></string>
+    <string name="txtTimeTree"></string>
+    <string name="txtTimeFour"></string>
+    <string name="txtTimeFive"></string>
+
+
+</resources>

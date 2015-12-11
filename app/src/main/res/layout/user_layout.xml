@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:weightSum="1" android:gravity="right"
+              android:id="@+id/conteinerUser">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user1"
+            android:id="@+id/txtNameActivity" android:gravity="left"/>
+    <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progressDrawable="@drawable/horizontalprogressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:id="@+id/prBar"
+            android:minWidth="160dp" android:max="100" android:indeterminate="false"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnDelete"
+            android:id="@+id/btnDelete" android:onClick="deleteUser"/>
+</LinearLayout>

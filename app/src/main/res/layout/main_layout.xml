@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background" android:id="@+id/container" android:baselineAligned="false">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/txtInit"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#000000"
+            android:textSize="18dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/rules"
+            android:id="@+id/textView2"
+            android:textColor="#4c5f65" android:layout_below="@+id/textView" android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/rulesGame"
+            android:id="@+id/textView3"
+            android:textColor="#000000"
+            android:layout_below="@+id/textView2" android:layout_alignParentStart="true" android:textSize="18dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="@string/user1"
+            android:ems="10"
+            android:id="@+id/txtUserName"
+            android:layout_alignTop="@+id/textView4"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:maxLength="10"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/newUser"
+                android:id="@+id/button2"
+                android:textColor="#00f9ff"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" android:onClick="addUser"
+                android:layout_marginLeft="5dp" android:textStyle="bold"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnStart"
+                android:id="@+id/button"
+                android:textColor="#00f9ff"
+                android:layout_alignTop="@+id/button2" android:layout_toEndOf="@+id/textView2" android:onClick="startGame"
+                android:layout_marginLeft="5dp" android:textStyle="bold"/>
+    </LinearLayout>
+    <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/txtUser1"
+                android:id="@+id/textView4"
+                android:layout_below="@+id/textView3" android:layout_alignParentStart="true"
+                android:layout_marginTop="3dp"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_gravity="right">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Результат"
+                android:id="@+id/btnRes"
+                android:textColor="#00f9ff"
+                android:textStyle="bold" android:visibility="invisible" android:layout_gravity="right"
+                android:onClick="result" android:enabled="false"/>
+    </LinearLayout>
+
+</LinearLayout>

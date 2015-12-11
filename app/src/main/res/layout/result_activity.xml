@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="@drawable/background">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lableResult"
+            android:id="@+id/textView5" android:layout_gravity="center_horizontal" android:textSize="20sp"/>
+    <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="3"
+            android:rowCount="7" android:layout_margin="5dp" android:id="@+id/">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtPositionTitel"
+                android:id="@+id/textView6"
+                android:layout_row="0"
+                android:layout_column="0" android:layout_gravity="center_horizontal" android:layout_margin="5dp"
+                android:textSize="20dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtNameUserTitle"
+                android:id="@+id/textView6"
+                android:layout_row="0"
+                android:layout_column="1" android:layout_gravity="center_horizontal" android:layout_margin="5dp"
+                android:textSize="20dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtTimeTitle"
+                android:id="@+id/textView6"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:layout_margin="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtPositionOne"
+                android:id="@+id/txtUserOne" android:layout_row="1" android:layout_column="0" android:textSize="20dp"
+                android:layout_gravity="center_horizontal" android:layout_margin="5dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtNameUserOne"
+                android:id="@+id/txtUserNameOne" android:layout_row="1" android:layout_column="1" android:textSize="20dp"
+                android:layout_gravity="center_horizontal" android:layout_margin="5dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtTimeOne"
+                android:id="@+id/txtTimeOne" android:layout_row="1" android:layout_column="2" android:textSize="20dp"
+                android:layout_gravity="center_horizontal" android:layout_margin="5dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtPositionTwo"
+                android:id="@+id/txtUserTwo" android:layout_row="2" android:layout_column="0" android:textSize="20dp"
+                android:layout_gravity="center_horizontal" android:layout_margin="5dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtNameUserTwo"
+                android:id="@+id/txtUserNameTwo" android:layout_row="2" android:layout_column="1" android:textSize="20dp"
+                android:layout_gravity="center_horizontal" android:layout_margin="5dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtTimeTwo"
+                android:id="@+id/txtTimeTwo" android:layout_row="2" android:layout_column="2" android:textSize="20dp"
+                android:layout_gravity="center_horizontal" android:layout_margin="5dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtPositionThree"
+                android:id="@+id/txtUserThree" android:layout_row="3" android:layout_column="0" android:textSize="20dp"
+                android:layout_gravity="center_horizontal" android:layout_margin="5dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtNameUserThree"
+                android:id="@+id/txtUserNameTree" android:layout_row="3" android:layout_column="1" android:textSize="20dp"
+                android:layout_gravity="center_horizontal" android:layout_margin="5dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtTimeTree"
+                android:id="@+id/txtTimeTree" android:layout_row="3" android:layout_column="2" android:textSize="20dp"
+                android:layout_gravity="center_horizontal" android:layout_margin="5dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtPositionFour"
+                android:id="@+id/txtUserFour" android:layout_row="4" android:layout_column="0" android:textSize="20dp"
+                android:layout_gravity="center_horizontal" android:layout_margin="5dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtNameUserFour"
+                android:id="@+id/txtUserNameFour" android:layout_row="4" android:layout_column="1" android:textSize="20dp"
+                android:layout_gravity="center_horizontal" android:layout_margin="5dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtTimeFour"
+                android:id="@+id/txtTimeFour" android:layout_row="4" android:layout_column="2" android:textSize="20dp"
+                android:layout_gravity="center_horizontal" android:layout_margin="5dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtPositionFive"
+                android:id="@+id/txtUserFive" android:layout_row="5" android:layout_column="0" android:textSize="20dp"
+                android:layout_gravity="center_horizontal" android:layout_margin="5dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtNameUserFive"
+                android:id="@+id/txtUserNameFive" android:layout_row="5" android:layout_column="1" android:textSize="20dp"
+                android:layout_gravity="center_horizontal" android:layout_margin="5dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtTimeFive"
+                android:id="@+id/txtTimeFive" android:layout_row="5" android:layout_column="2" android:textSize="20dp"
+                android:layout_gravity="center_horizontal" android:layout_margin="5dp"/>
+    </GridLayout>
+</LinearLayout>
